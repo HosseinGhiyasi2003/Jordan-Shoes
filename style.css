@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+  background: url(images/bg\ with\ shoe\ edited\ in\ photoshop.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+section .container .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 33px;
+}
+
+section .container .header .logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+section .container .header .navbar ul {
+  display: flex;
+  gap: 50px;
+  font-size: 13px;
+  list-style: none;
+}
+
+
+section .container .header .navbar ul li a {
+  position: relative;
+  color: #fff;
+  letter-spacing: 4px;
+}
+
+section .container .header .navbar ul li a.active::before {
+  content: "";
+  position: absolute;
+  left: -3px;
+  bottom: -7px;
+  width: 100%;
+  height: 3px;
+  background-color: #ff0000;
+  display: block;
+}
+
+section .container .header .header-icons {
+  display: flex;
+  gap: 27px;
+}
+
+.container .price-section {
+  display: flex;
+  position: absolute;
+  top: 65%;
+  left: 56%;
+}
+
+.container .price-section .price {
+  color: #E70000;
+  font-size: 36px;
+}
+
+.container .price-section p {
+  color: #fff;
+  font-size: 18px;
+  margin-left: 3px;
+}
+
+.container .price-section p span {
+  font-weight: bold;
+}
+
+.container .price-section button {
+  all: unset;
+  background-color: #EB0000;
+  color: #fff;
+  width: 74px;
+  height: 30px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 7.5px, 15px;
+  margin-top: -3px;
+}
+
+.container .bottom-section {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 75%;
+}
+
+.container .bottom-section .color h3 {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.container .bottom-section .color .color-images img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.container .bottom-section .add-buy-buttons {
+  display: flex;
+  gap: 33px;
+}
+
+.container .bottom-section .add-buy-buttons button {
+  all: unset;
+  width: 140px;
+  height: 34.75px;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.container .bottom-section .add-buy-buttons .add-btn {
+  background-color: #fff;
+  color: #000;
+}
+
+.container .bottom-section .add-buy-buttons .buy-btn {
+  border: 1px solid #fff;
+}
+
+.container .bottom-section .info {
+  width: 30%;
+  /* text-align: center; */
+  padding-right: 45px;
+}
+
+.container .bottom-section .info h3 {
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.container .bottom-section .info p {
+  margin-top: 7px;
+  text-align: justify;
+  font-size: 1.893vmin;
+  line-height: 22px;
+}
+
+
+
+

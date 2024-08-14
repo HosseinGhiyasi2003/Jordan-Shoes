@@ -1,0 +1,48 @@
+@media screen and (max-width: 992px) {
+  section .container .header {
+    justify-content: space-around;
+  }
+  .container .header .navbar {
+    display: none;
+  }
+  .container .bottom-section .add-buy-buttons {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container .price-section {
+    display: none;
+  }
+  .container .bottom-section .info {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .container .bottom-section .color .color-images img {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  section .container .header .logos img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+  }
+  .container .bottom-section .color h3 {
+    font-size: 10px;
+  }
+  .container .bottom-section .color .color-images img {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  section .container .header .logos {
+    display: none;
+  }
+}
